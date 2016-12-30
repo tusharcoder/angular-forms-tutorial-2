@@ -4,7 +4,7 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.modeldrivenform.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T10:21:39+05:30
+* @Last modified time: 2016-12-30T10:54:14+05:30
 */
 import {Component} from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms';
@@ -22,11 +22,11 @@ export class ModelDrivenForm{
       'password':'',
       'gender':'',
       'dob':'',
-      'newsletter':'',
+      'newsletter':false,
     });
   }
 
-  submit(value:any):void{
+  submitForm(value:any):void{
     console.log('Model based reactive form');
     console.log(value);
   }

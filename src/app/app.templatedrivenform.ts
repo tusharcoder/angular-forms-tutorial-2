@@ -4,7 +4,7 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.templatedrivenform.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T10:00:49+05:30
+* @Last modified time: 2016-12-30T10:53:07+05:30
 */
 import {Component} from '@angular/core';
 
@@ -23,7 +23,7 @@ import {Component} from '@angular/core';
 
       <div class="form-group">
         <label for="passwordInput1">Password:</label>
-        <input type="text" name="password" class="form-control" id="passwordInput1" placeholder="password" ngModel required>
+        <input type="password" name="password" class="form-control" id="passwordInput1" placeholder="password" ngModel required>
       </div>
 
       <div class="form-group">

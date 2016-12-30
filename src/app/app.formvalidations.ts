@@ -4,7 +4,7 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.formvalidations.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T11:24:02+05:30
+* @Last modified time: 2016-12-30T11:26:13+05:30
 */
 import {Component} from '@angular/core';
 import {FormBuilder, FormGroup, FormControl,Validators} from '@angular/forms';
@@ -99,6 +99,7 @@ export class Formvalidation{
 
   submitForm(value:any):void{
     console.log('Model based reactive form with Validations');
+    alert('Congrations! you form is submitted');
     console.log(value);
   }
 

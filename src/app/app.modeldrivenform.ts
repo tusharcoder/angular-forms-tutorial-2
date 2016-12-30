@@ -4,9 +4,10 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.modeldrivenform.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T05:38:29+05:30
+* @Last modified time: 2016-12-30T10:21:39+05:30
 */
 import {Component} from '@angular/core';
+import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector:'model-driven',
@@ -14,5 +15,19 @@ import {Component} from '@angular/core';
 })
 
 export class ModelDrivenForm{
+  modelDrivenForm:any
+  constructor(fb:FormBuilder){
+    this.modelDrivenForm=fb.group({
+      'email':'',
+      'password':'',
+      'gender':'',
+      'dob':'',
+      'newsletter':'',
+    });
+  }
 
+  submit(value:any):void{
+    console.log('Model based reactive form');
+    console.log(value);
+  }
 }

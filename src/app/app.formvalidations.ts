@@ -4,7 +4,7 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.formvalidations.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T11:26:13+05:30
+* @Last modified time: 2016-12-30T11:27:57+05:30
 */
 import {Component} from '@angular/core';
 import {FormBuilder, FormGroup, FormControl,Validators} from '@angular/forms';
@@ -76,7 +76,7 @@ import {FormBuilder, FormGroup, FormControl,Validators} from '@angular/forms';
         </div>
 
         <div class="form-group">
-          <button type="submit" class="btn btn-primary" name="button">Submit</button>
+          <button type="submit" ['disabled']="!modelDrivenForm.valid" class="btn btn-primary" name="button">Submit</button>
         </div>
 
       </form>

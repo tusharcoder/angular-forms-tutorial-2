@@ -4,12 +4,12 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.modeldrivenform.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T05:28:55+05:30
+* @Last modified time: 2016-12-30T05:38:29+05:30
 */
 import {Component} from '@angular/core';
 
 @Component({
-  selector:'template-driven',
+  selector:'model-driven',
   templateUrl:`./app.modeldrivenform.html`
 })
 

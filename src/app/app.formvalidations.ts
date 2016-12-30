@@ -4,12 +4,12 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.formvalidations.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T05:31:37+05:30
+* @Last modified time: 2016-12-30T05:38:38+05:30
 */
 import {Component} from '@angular/core';
 
 @Component({
-  selector:'template-driven',
+  selector:'form-validation',
   template:`<h1>This is the form validation. Here I will show you how to validate the model driven form</h1>`
 })
 

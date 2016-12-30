@@ -4,7 +4,7 @@
 * @Email:  tamyworld@gmail.com
 * @Filename: app.templatedrivenform.ts
 * @Last modified by:   tushar
-* @Last modified time: 2016-12-30T09:52:22+05:30
+* @Last modified time: 2016-12-30T10:00:49+05:30
 */
 import {Component} from '@angular/core';
 
@@ -27,15 +27,12 @@ import {Component} from '@angular/core';
       </div>
 
       <div class="form-group">
-        <label for="dateInput1"></label>
+        <label for="dateInput1">Date of Birth</label>
         <input type="date" name="dob" class="form-control" id="dateInput1" placeholder="Date of Birth:" ngModel required>
       </div>
 
       <div class="form-group">
         <label>Gender</label>
-        <div class="alert alert-danger">
-          *Select your Gender
-        </div>
         <div class="radio">
           <label>
             <input type="radio" name="gender" id="radioInput1" value="Male" ngModel>Male
